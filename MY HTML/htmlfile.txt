@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+</head>
+<body>
+<div class="form-container">
+	<div class="user-img"></div>
+<ul class="list">
+	<li><h2>Citizens Registration</h2></li>
+	<li><label for="fname">First Name:-</label><input type="text" name="first name" placeholder="Please enter the name:"></li>
+	<li><label for="lname">Last Name:-</label><input type="text" name="last name" placeholder="Please enter the name:"></li>
+<li><label for="Email">Email:-</label><input type="text" name="Email" placeholder="Please enter the valid id:"></li>
+
+
+	<li><label for="age">Age:-</label><input type="radio" id="radio" name="below 18" value="below 18">below 18</li>
+	<li><input type="radio" id="radio" name="Above 25" value="Above 25">Above 25</li>
+<li><input type="radio" id="radio" name="above 50" value="Above 50">Above 50</li>
+
+
+	<li><label for="Gender">Gender</label><br><input type="radio" id="radio" name="Gender1" value="Male">Male</li>
+	<li><input type="radio" id="radio" name="Gender1" value="Female">Female</li>
+
+<li><input type="button" name="submit" value="Submit"></li>
+</ul>
+</div>
+</body>
+</html>

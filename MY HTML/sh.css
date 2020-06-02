@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:LINEAR-GRADIENT(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("cor.jpg");
+height: 100vh;
+background-size:cover;
+backgroung-position:center;
+
+	}
+
+ul{
+float: right;
+list-style-type:none;
+margin-top:25 px;
+}
+
+ul li {
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+padding:5px 20px;
+border:1px solid transparent;
+transition: 0.6s ease;
+}
+h2{
+float:center;
+align:center;
+background-color:black;
+color:white;
+}
+ul li a:hover{
+	background-color:#fff;
+	color:black;
+
+}
+
+ul li.active a{
+	background-color:#fff;
+	color: #000;
+}
+
+
+
+
+
+.list{
+	float: left;
+	align:center;
+
+	font-color:#2d85b0;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style:italic;
+}
+.shr{
+float:right;
+margin:right;
+padding:20px 20px;
+align:center;
+left:20%;
+
+color:white;
+
+	
+}
+.im{
+	
+	padding-bottom:0px;
+	top: 90%;
+	left: 50%;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-50%)
+}
+.title h1{
+color:#fff;
+font-size:40px;
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	transform: translate(-50%,-50%)
+}
+.btn{
+	border: 1px solid #fff;
+	padding:10px 30px;
+
+color: #fff;
+}
+.btn:hover{
+background-color:#fff;
+	color:black;
+}
+
+.but{
+	position: absolute;
+	top: 68%;
+	left: 90%;
+	transform: translate(-70%,-70%)
+}
+.bt{
+	border: 5px solid #fff;
+	padding:20px 50px;
+color: #fff;
+}
+
+.bt:hover{
+background-color:#fff;
+	color:black;
+}
+
+.sub-menu{
+	display:none;
+}
+ul li a:hover.sub-menu{
+display:block;
+position:absalute;
+margin-top:15px;
+margin-left:-15px;
+}

@@ -1,0 +1,82 @@
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	background-image:LINEAR-GRADIENT(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("prec.jpg");
+height: 200vh;
+background-size:cover;
+backgroung-position:center;
+
+	}
+
+ .head {
+    grid-column: 1/4;
+    grid-row: 1;
+    border: solid black;  
+    text-align: center;
+  }
+
+.list{
+position: absolute;
+	top: 90%;
+	left: 50%;
+list-style:none;
+	transform: translate(-50%,-50%)
+}
+.list h2{
+
+color:#fff;
+font-size:20px;
+}
+.title{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.title h1{
+color:#fff;
+font-size:60px;
+}
+
+
+#slidebar{
+	position:fixed;
+	width:200px;
+	height:100%;
+	background:#151719;
+	left:-200px;
+	
+}
+#slidebar ul li{
+	color:rgba(230,230,230,0.9);
+list-style:none;
+padding:15px 10px;
+border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#slidebar .toggle-btn{
+position:absolute;
+left:230px;
+top:20px;
+}
+#slidebar .toggle-btn span{
+	display:block;
+	width:30px;
+	height:5px;
+background:#fff;
+margin:3px 0px;
+}
+
+#slidebar.active{
+	left:0px;
+}
+.list li{
+	align:center;
+}
